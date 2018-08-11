@@ -21,7 +21,8 @@ public class StringReflection {
 		Class<?> strClass2 = Class.forName("java.lang.String");
 		// ¿‡√˚.class
 		Class<String> strClass3 = String.class;
-
+		
+		
 		System.out.println(strClass1.getName());
 		System.out.println(strClass2.getName());
 		System.out.println(strClass3.getName());
